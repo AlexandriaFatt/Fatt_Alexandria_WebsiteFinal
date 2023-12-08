@@ -1,11 +1,165 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Project: CSS</title>
+    <link rel="Stylesheet" href="Stylesheet/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="mobile-nav" style="display: none;">
+        <button id="close-menu">X</button>
+        <a href="#" class="font-family">Menu</a>
+        <a href="#" class="font-family">Order</a>
+        <a href="#" class="font-family">Reservations</a>
+        <a href="#" class="font-family">Contact</a>
+        <a href="#" class="font-family">About Us</a>
+    </div>
+    <header class="grid-container header featured">
+            <img src="Images/Kasama_Logo copy.png"  width="123">
+            <nav class="nav">
+                <a href="https://www.kasamachicago.com/menus" class="font-family">Menu</a>
+                <a href="https://order.toasttab.com/online/kasama-1001-north-winchester-avenue" class="font-family">Order</a>
+                <a href="https://www.kasamachicago.com/reservations-dinner" class="font-family">Reservations</a>
+                <a href="https://www.kasamachicago.com/general" class="font-family">Contact</a>
+                <a href="https://www.kasamachicago.com/" class="font-family">About Us</a>
+                <button id="hamburger-menu" class="hamburger">
+                <span class="material-symbols-outlined hamburger">menu</span>
+                </button>
+            </nav>
+    </header>
+    <main>
+        <section class="hero-image">
+            <div class="hero-text">
+                <h1>Blending Flavors and Cultural Heritage </h1>
+                <p class="hero-p">Welcome to Kasama, where we blend the diverse tastes and traditions of the Philippines. Our menu reflects the rich tapestry of Filipino cuisine inspired by our culinary heritage. Join us for a dining experience that unites the soulful flavors of tradition with a modern twist.</p>
+                <button class="reservation-button">
+                    <a href="https://www.kasamachicago.com/reservations-dinner" class="reservation-button">Make a Reservation</a>
+                </button>
+            </div>
+        </section>
+        <section class="Our-story">
+            <div class="OurStoryimage">
+                <img  src="Images/AboutKasama.jpg" width="594" height="400px">
+            </div>
+            <div class="Our-story-font">
+                <h1 class="font-family" style="margin-top: 80px;">Our Story</h1>
+                <p>Kasama, situated in the East Ukrainian Village neighborhood of Chicago, is a bakery and contemporary Filipino restaurant co-founded by chefs Genie Kwon and Timothy Flores. We eagerly anticipate the pleasure of hosting you!</p>
+            </div>
+        </section>
+        <section class="Crowd-favorites">
+            <div class="hero-text"  style="position: relative">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="CF-text">Crowd Favorites</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="grid-container-menu">
+                <table style="width: 100%; height: 100%;">
+                    <tr>
+                        <td>
+                            <img src="Images/Filipino-Food-Lechon.png" alt="image of Filipino-Food-Lechon" width="325px" height="325px" class="menu-items">
+                            <p class="lechon-text">Lechon</p>
+                        </td>
+                    </tr>
+                </table>
+                <table style="width: 100%; height: 100%;">
+                    <tr>
+                        <td>
+                            <img src="Images/Filipino-Food-Balut.png" alt="image of Filipino-Food-Balut" width="325px" height="325px" class="menu-items">
+                            <p class="balut-text">Balut</p>
+                        </td>
+                    </tr>
+                <table style="width: 100%; height: 100%;">
+                    <tr>
+                        <td style="position: relative;">
+                            <img src="Images/Filipino-Food-Torta.png" alt="image of Filipino-Food-Torta" width="325px" height="325px" class="menu-items">
+                            <p class="torta-text">Torta</p>
+                        </td>
+                    </tr>
+                </table>
+        </section>
+        <section class="news-section">
+            <div class="image-2">
+                <img  src="Images/KasamaTogetherArticle.jpg" width="594" height="360px">
+            </div>
+            <div class="news-section-font">
+                <h1 class="font-family">Together with Kasama, the world’s inaugural MICHELIN-starred Filipino restaurant</h1>
+                <p>“Filipino cuisine, a tapestry of memories, constantly evolves. Tim Flores, chef-owner of Kasama, aims to preserve its roots and accessibility. Serving breakfast, lunch, and dinner, Kasama invites…</p>
+                <button class="read-button">
+                    <a href="https://guide.michelin.com/us/en/article/people/together-with-kasama-the-world-s-first-michelin-starred-filipino-restaurant" class="read-button">Read Now</a>
+                </button>
+            </div>
+        </section>
+        <section class="Talk-of-the-town">
+            <div class="TT-style-text"  style="position: relative">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="TT-text">Talk of the Town</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="image-3">
+                <img  src="Images/Filipino-Food-Batchoy-Noodle-Soup.png" width="594" height="360px">
+            </div>
+            <div class="talk-of-the-town-font">
+                <h1 class="talk-of-the-town-font-head">Gabriel Sanchez</h1>
+                <img src="Images/white-star-md.png"  width="61" class="white-star">
+                <img src="Images/white-star-md.png"  width="61" class="white-star">
+                <img src="Images/white-star-md.png"  width="61" class="white-star">
+                <img src="Images/white-star-md.png"  width="61" class="white-star">
+                <img src="Images/white-star-md.png"  width="61" class="white-star">
+                <p style="width: 400px;" class="talk-of-the-town-font-p">"10/10 would recommend to anyone! I was instantly drawn in by the inviting ambiance and the exceptional, flavorful cuisine."</p>
+            </div>
+        </section>
+        <section class="white-space">
+
+        </section>
+        <section class="footer grid-container-footer">
+            <img src="Images/Kasama_Logo copy.png"  width="261">
+                <div>
+                    <p class="text-center"><a href="#" class="footer-font-family">Location</a></p>
+                    <p class="p-Footer-font">1001 N. Winchester Ave.</p>
+                    <p class="p-Footer-font">Chicago, Illinois</p>
+                    <p class="p-Footer-font">60622</p>
+                </div>
+                <div>
+                    <p class="text-center"><a href="#" class="footer-font-family">Hours</a></p>
+                    <p class="p-Footer-font">Wednesday – Sunday 
+                    <p class="p-Footer-font"> 9am – 3pm</p>
+                    <p class="p-Footer-font"> *(kitchen closes at 2pm)*</p>
+                </div>
+                <div>
+                    <p class="text-center"><a href="#" class="footer-font-family">Contact Us</a></p>
+                    <p class="p-Footer-font">815-562-2742</p>
+                    <p class="p-Footer-font">KasamaFoods@gmail.com</p>
+                    <a href="https://www.yelp.com/biz/kasama-chicago">
+                        <img src="Images/yelp-128.png" alt="Image of yelp-128" width="40px" height="44px" class="yelp-icon socials">
+                    </a>
+                    <a href="https://www.instagram.com/kasamachicago/">
+                        <img src="Images/new-Instagram-logo-white-glyph.png" alt="Image of new-Instagram-logo-white-glyph" width="41px" height="41px" class="insta-icon socials">
+                    </a>
+                    <a href="https://www.facebook.com/kasamachicago/">
+                        <img src="Images/facebook-icon-white-png.png" alt="Image of facebook-icon-white-png" width="41px" height="43px" class="fb-icon socials">
+                    </a>
+                </div>
+                <div>
+                    <p class="text-center"><a href="#" class="footer-font-family">About</a></p>
+                    <p class="p-Footer-font">News</p>
+                    <p class="p-Footer-font">Our Story</p>
+                    <p class="p-Footer-font">Events</p>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <script src="javascript/javascript.js"></script>
+    </footer>
+</body>
 </html>
